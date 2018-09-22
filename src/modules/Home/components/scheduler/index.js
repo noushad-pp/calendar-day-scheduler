@@ -16,13 +16,9 @@ export default class Scheduler extends Component {
         const { events } = this.state;
         return (
             <div className="schedulerContainer flex-row flex-ac full-flex">
-                <div className="leftTimeBar full-height flex-column flex-jsb pad-10 bg-lighter">
+                <div className="leftTimeBar full-height flex-column flex-jsb lr-pad-10 is-bordered bg-lighter">
                     <span>09:00 AM</span>
-                    {/* <span>10:30 AM</span>
-                    <span>12:00 PM</span> */}
                     <span>03:00 PM</span>
-                    {/* <span>06:00 PM</span>
-                    <span>08:30 PM</span> */}
                     <span>09:00 PM</span>
                 </div>
 
